@@ -1,0 +1,63 @@
+.container{
+   
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+     background: rgb(32, 165, 90);
+    }
+
+header h1 {
+    float: left;
+    border-style: solid;
+    border-color:black;
+    padding: 10px;
+}
+
+
+
+ .navbarItems ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+ }
+
+ .navbarItems li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 65px;
+    padding-bottom: 5px;
+
+    position: relative;
+ }
+
+ .navbarItems a {
+    color: coral;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbarItems a:hover{
+    color: #000;
+}
+
+.navbarItems a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: coral;
+
+    position:absolute;
+    bottom: 0 ;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+} 
+
+.navbarItems a:hover::before {
+    width: 100%;
+}
+

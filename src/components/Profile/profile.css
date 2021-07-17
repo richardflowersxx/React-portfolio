@@ -1,0 +1,25 @@
+img {
+    width: auto;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.profile-body {
+    padding: 10rem 1.5rem;
+    background-color: rgb(68, 221, 201);
+}
+
+.profile-title {
+    font-size: 60px;
+}
+
+.profile-subtitle {
+    font-family: "europa", sans-serif;
+    font-weight: 300;
+    line-height: 3.5;
+    font-size: 40px;
+}

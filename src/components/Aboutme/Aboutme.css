@@ -1,0 +1,35 @@
+.aboutSec {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about-body{
+    height: 1000px;
+    background-color: rgb(144, 206, 247);
+}
+
+.about-title{
+    font-size: 60px;
+    padding-bottom: 37px;
+}
+
+.aboutParagraph{
+    padding: 14px 400px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.profileIcon {
+    display: flex;
+    flex-direction: row;
+    margin-left: 370px;
+    
+}
+
+.icons{
+padding: 50px;
+
+}
+
